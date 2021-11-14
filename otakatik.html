@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link id="theme" rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="icon" type="image/png" href="./images/Untitled-1.png" />
+  <title>Kalkulator Javasctipt</title>
+</head>
+<body>
+  <div class="frame">
+    <div class="top">
+      <button class="buttonclear" id="clear">C</button>
+      <output name="result" id="result"></output>
+    </div>
+    <!-- end top -->
+    <div class="functionbox">
+      <div class="rowsatu">
+        <button class="tujuh" id="tujuh">7</button>
+        <button class="delapan" id="delapan">8</button>
+        <button class="sembilan" id="sembilan">9</button>
+        <button class="operasimatematika" id="divide">	&divide;</button>
+      </div>
+      <!-- end row satu -->
+      <div class="rowtwo">
+        <button class="empat" id="empat">4</button>
+        <button class="lima" id="lima">5</button>
+        <button class="enam" id="enam">6</button>
+        <button class="operasimatematika" id="kali">x</button>
+      </div>
+      <!-- end row two -->
+      <div class="rowthree">
+        <button class="satu" id="satu">1</button>
+        <button class="dua" id="dua">2</button>
+        <button class="tiga" id="tiga">3</button>
+        <button class="operasimatematika" id="bagi">-</button>
+      </div>
+      <!-- end row three -->
+      <div class="barisempat">
+        <button class="zero" id="zero">0</button>
+        <button class="operasimatematika" id="desimal">.</button>
+        <button class="operasimatematika" id="samadengan">=</button>
+        <button class="operasimatematika" id="tambah">+</button>
+      </div>
+      <!-- end row empat -->
+    </div>
+    <div class="themebox">
+        <p>Silahkan Pilih Tema</p>
+    </div>
+    <!-- mengubah tema -->
+    <div class="choosetheme">
+        <button onclick="toggleTheme('main.css')"> Default</button>
+        <button onclick="toggleTheme('coba1.css')"> Dark</button>
+        <button onclick="toggleTheme('coba2.css')"> Sea</button>        
+    </div>
+  </div>
+  </div>
+  </div>
+  <!--menghubungkan dengan file javasript -->
+  <script src="main.js"></script>
+</body>
+
+</html>
